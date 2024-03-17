@@ -1,0 +1,150 @@
+.bg_body {
+  background-color: rgb(192, 182, 182);
+  background-image: linear-gradient(
+    to right top,
+    #b283c3,
+    #a28eca,
+    #9597cc,
+    #8ca2d6,
+    #83addd,
+    #7cb7e1,
+    #6cc9ee,
+    #c5c6d4,
+    #c5c6d4,
+    #dee2e2
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_div {
+  width: 1000px;
+  background: white;
+  height: 600px;
+  /* border: 1px solid black; */
+  border-radius: 24px;
+  display: flex;
+  padding: 10px 0px 10px 10px;
+}
+.img_container {
+  width: 50%;
+  background-image: linear-gradient(to right top, #dee2e2, #c8d5e6);
+  border-radius: 24px;
+}
+.img {
+  width: 100%;
+  border-radius: 20px;
+
+  /* background-color: white; */
+  height: 100%;
+}
+.logoContainer {
+  cursor: pointer;
+}
+.input_container {
+  margin: 12px 0px;
+  padding: 0px 86px;
+  width: 100%;
+}
+
+.input_container div {
+  width: 100%;
+}
+.credContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h1_text {
+  font-size: 28px;
+  color: #9597cc;
+  margin-top: 86px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.h1_text_1 {
+  font-size: 28px;
+  color: #9597cc;
+  margin: 16px 0px;
+  font-weight: bold;
+}
+.btn_container {
+  width: 100%;
+  padding: 0px 86px;
+}
+.login_btn {
+  background-color: #9597cc;
+  width: 100%;
+  margin-top: 18px;
+  border-radius: 4px;
+  height: 48px;
+  color: white;
+}
+.login_btn:hover {
+  opacity: 0.8;
+}
+.forgot_btn {
+  background-color: #fafafa;
+  width: 100%;
+  margin-top: 18px;
+  border-radius: 4px;
+  height: 48px;
+  color: #9597cc;
+}
+.forgot_btn:hover {
+  background-color: #c5c6d4;
+  color: white;
+}
+.back_btn_container {
+  color: grey;
+  width: 100%;
+  padding: 18px 86px;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: end;
+}
+.secDiv {
+  cursor: pointer;
+}
+.uploadBtnWrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.uploadBtnWrapper input[type="file"] {
+  font-size: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.imgLogo {
+  color: transparent;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solide black;
+  border: 1px solid rgb(232 232 232 / 91%);
+  padding: 10px 9px 9px 18px;
+}
+
+.imgSelected {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.err_msg{
+  width: 100%;
+  padding: 0px 88px;
+  color: rgb(219, 58, 58);
+}
